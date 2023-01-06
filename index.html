@@ -1,7 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>WDD 230 - Portal - Celeste George</title>
+        <meta name="description" content="WDD 230 Celeste George Course Assignment Portal">
+        <meta name="author" content="Celeste George">
+        <link rel="stylesheet" href="styles">
+        <link rel="stylesheet" href="styles">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorgin>
     </head>
     <body>
+        <nav>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+            <a href="https://www.linkedin.com/celestegeorge">LinkedIn</a>
+            <a href="https://www.byui.edu/">Byu-Idaho</a>
+        </nav>
+        <header>
+            <h1>Celeste George</h1>
+            <img src="images/celeste-profile-pic.jpeg" alt="profile image of celeste">
+            <h2>WDD 230: Course Activity Portal</h2>
+        </header>
+        <main>
+            <section class="card1">
+                <h3>Learning Activities</h3>
+                <ul style="list-style: none;">
+                    <li><a href="#">Activity 1</a></li>
+                    <li><a href="#">Activity 2</a></li>
+                    <li><a href="#">Activity 3</a></li>
+                </ul>
+            </section>
+            <section class="card2">
+                <h3>Project</h3>
+                <a href="/project-folder">Project Folder</a>
+            </section>
+            <section class="card3">
+                <h3>Information</h3>
+                <p>Current weather: <span id="weather">placeholder</span></p>
+                <p>Number of page visits: <span id="visits">placeholder</span></p>
+            </section>
+        </main>
+        <footer>
+            <p>
+                &copy; <script>document.write(new Date().getFullYear())</script> Celeste George
+                United States of America 
+                <br>
+                <img src="images/flag.jpg" alt="american flag">
+            </p>
+            <p class="highlight" id="lastModified">Last Modified:
+                <script>
+                    document.write(document.lastModified)
+                </script>
+            </p>
+        </footer>
+        
     </body>
 </html>

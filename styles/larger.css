@@ -1,0 +1,7 @@
+@media (min-width: 600px) {
+    nav {
+        flex-direction: row-reverse;
+        justify-content: right;
+        gap: 3rem;}
+  
+}
