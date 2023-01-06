@@ -1,0 +1,31 @@
+/*
+1. do not include a media query
+2. use the Google Font - Roboto in the body rule
+3. the header, main and footer each
+    a. have a max width of 640 pixels
+    b. are centered on the page using margin : 1rem auto
+    c. inclue a faint border and appropriate padding
+    d. have a blueish background color of your choice
+4. set the main element to be a CSS grid with a grid tempplate of only one
+    column, and a equal gap of 1rem
+5. set the section elements to also have padding and a white background
+*/
+
+header, main, footer {
+    font-family: Roboto;
+    max-width: 640px;
+    margin: 1rem auto;
+    background-color: cornflowerblue;
+    border: 5px solid rgba(0,0,0,0.1)
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+}
+
+section {
+    padding: 1rem;
+    background-color: white;
+}

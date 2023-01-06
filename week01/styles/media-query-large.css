@@ -1,7 +1,5 @@
 @media screen and (min-width: 500px) {
-    h1 {
-      font-size: 2.5rem;
-      margin: 1rem;
+    header {
       background-color: black;
       color: white;
     }
