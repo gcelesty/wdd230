@@ -2,6 +2,7 @@
 
 nav {
     background-color:rgb(148, 20, 84);
+    color: white;
     display:flex;
     flex-direction: column;
     align-items: center;
