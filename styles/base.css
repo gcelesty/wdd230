@@ -79,6 +79,8 @@ main {
 .card2 {
     background-color:lightgray;
     border-radius: 50px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
     font-family: Roboto, Arial, sans-serif;
     font-size: 1.5em;
     border: 1px solid black
@@ -86,6 +88,8 @@ main {
 .card3 {
     background-color:lightgray;
     border-radius: 50px;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
     font-family: Roboto, Arial, sans-serif;
     font-size: 1.5em;
     border: 1px solid black
