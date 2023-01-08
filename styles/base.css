@@ -45,6 +45,14 @@ header img {
    border-radius: 50%;
 }
 
+header h2 {
+    font-size: .7em;
+    color: white;
+    padding-left: 10px;
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: underline;
+ }
+
 main {
     display: grid;
     grid-template-columns: 500px 500px;
@@ -56,14 +64,6 @@ main {
     padding-bottom: 25px;
     color: black;
 }
-
-.portaltitle {
-    font-size: .7em;
-    color: white;
-    padding-left: 10px;
-    font-family: Roboto, Arial, sans-serif;
-    text-decoration: underline;
- }
 
 .card1 {
     background-color:lightgray;
