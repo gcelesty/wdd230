@@ -45,10 +45,6 @@ header img {
    border-radius: 50%;
 }
 
-section {
-    display: flex;
-}
-
 main {
     display: grid;
     grid-template-columns: 500px 500px;
