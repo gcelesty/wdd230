@@ -51,10 +51,9 @@ main {
     grid-template-rows: 200px 200px;
     text-align: center;
     background-color: gray;
-    justify-content: center;
+    justify-content: end;
     padding-top: 25px;
     padding-bottom: 25px;
-    justify-content: end;
     color: black;
 }
 
